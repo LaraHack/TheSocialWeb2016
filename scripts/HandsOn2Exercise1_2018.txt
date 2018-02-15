@@ -37,6 +37,5 @@ vu_id = ''
 # A quick way to format integers with commas every 3 digits
 def int_format(n): return "{:,}".format(n)
 
-#print "UVA likes:", int_format(g.get_object(uva_id)['likes'])
 print "UVA likes:", int_format(g.get_object(id = uva_id, fields = 'likes')['likes'])
 print "VU likes:", int_format(g.get_object(id = vu_id, fields = 'likes')['likes'])
