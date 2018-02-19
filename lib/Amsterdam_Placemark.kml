@@ -4,7 +4,7 @@
     <name>Amsterdam</name>
     <description>Placemark as an extra layer over Google Maps with coordinates extracted from Exercise 1 from Hands-on Session 3 of "The Social Web" course@VU Amsterdam</description>
     <Point>
-      <coordinates>52.367,4.900,0</coordinates>
+      <coordinates>52.367,4.900</coordinates>
     </Point>
   </Placemark>
 </kml>
